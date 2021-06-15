@@ -1,0 +1,24 @@
+{
+  "name": "amazon-pric3-track3r",
+  "version": "1.0.0",
+  "description": "You can see at what price is the price of a product and also, send a norification when it is at a X price",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blitty-codes/amazon-pric3-track3r.git"
+  },
+  "author": "blitty-codes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blitty-codes/amazon-pric3-track3r/issues"
+  },
+  "homepage": "https://github.com/blitty-codes/amazon-pric3-track3r#readme",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.1",
+    "puppeteer": "^10.0.0"
+  }
+}
