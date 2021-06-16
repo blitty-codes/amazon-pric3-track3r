@@ -43,7 +43,7 @@ const getPrice = async (page) => {
 
 		const answer = await askQuestion('If you don\'t want to track another product, write exit: ');
 
-		if (answer === 'exit') process.exit(1);
+		if (answer.match('exit')) process.exit(1);
 
 		productURL = answer;
 		await page.goto(answer);
